@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dialog</title>
+    <link rel="stylesheet" href="styles/chat.css">
+</head>
+<body>
+    <div class="chat">
+        <h1 class="visually-hidden">Чат</h1>
+        <div class="chat__content">
+            <div class="chat__item">
+                <svg class="chat__avatar" viewBox="0 0 47 47" width="47" height="47">
+                    <mask id="pentagon">
+                        <path d="m-0.5075,18.80181l23.49998,-17.9524l23.50002,17.9524l-8.97618,29.04761l-29.04763,0l-8.97619,-29.04761z" fill="white" />
+                    </mask>
+                    <g mask="url(#pentagon)">
+                        <image x="0" y="0" height="100%" preserveAspectRatio="xMidYMid slice" width="100%" xlink:href="images/avatar.jpg"></image>
+                    </g>
+                </svg>
+                <div class="chat__message">Это означает, что в Вашем доме, офисе, кабинете, мастерской хранятся ценности бóльшие, чем просто деньги или драгоценности, - культурные ценности. Произведения искусства, антиквариат, иные предметы коллекционирования – все это имущество, безусловно высокая стоимость которого.</div>
+            </div>
+            <div class="chat__item chat__item--reply">
+                <svg class="chat__avatar" viewBox="0 0 47 47" width="47" height="47">
+                    <mask id="pentagon">
+                        <path d="m-0.5075,18.80181l23.49998,-17.9524l23.50002,17.9524l-8.97618,29.04761l-29.04763,0l-8.97619,-29.04761z" fill="white" />
+                    </mask>
+                    <g mask="url(#pentagon)">
+                        <image x="0" y="0" height="100%" preserveAspectRatio="xMidYMid slice" width="100%" xlink:href="images/avatar.jpg"></image>
+                    </g>
+                </svg>
+                <div class="chat__message">Это означает,</div>
+            </div>
+            <div class="chat__item">
+                <svg class="chat__avatar" viewBox="0 0 47 47" width="47" height="47">
+                    <mask id="pentagon">
+                        <path d="m-0.5075,18.80181l23.49998,-17.9524l23.50002,17.9524l-8.97618,29.04761l-29.04763,0l-8.97619,-29.04761z" fill="white" />
+                    </mask>
+                    <g mask="url(#pentagon)">
+                        <image x="0" y="0" height="100%" preserveAspectRatio="xMidYMid slice" width="100%" xlink:href="images/avatar.jpg"></image>
+                    </g>
+                </svg>
+                <div class="chat__message">доме, офисе, кабинете, мастерской</div>
+            </div>
+            <div class="chat__line">
+                <span class="chat__day">21 октября 2017</span>
+            </div>
+            <div class="chat__item chat__item--reply">
+                <svg class="chat__avatar" viewBox="0 0 47 47" width="47" height="47">
+                    <mask id="pentagon">
+                        <path d="m-0.5075,18.80181l23.49998,-17.9524l23.50002,17.9524l-8.97618,29.04761l-29.04763,0l-8.97619,-29.04761z" fill="white" />
+                    </mask>
+                    <g mask="url(#pentagon)">
+                        <image x="0" y="0" height="100%" preserveAspectRatio="xMidYMid slice" width="100%" xlink:href="images/avatar.jpg"></image>
+                    </g>
+                </svg>
+                <div class="chat__message">Это означает,</div>
+            </div>
+            <div class="chat__item">
+                <svg class="chat__avatar" viewBox="0 0 47 47" width="47" height="47">
+                    <mask id="pentagon">
+                        <path d="m-0.5075,18.80181l23.49998,-17.9524l23.50002,17.9524l-8.97618,29.04761l-29.04763,0l-8.97619,-29.04761z" fill="white" />
+                    </mask>
+                    <g mask="url(#pentagon)">
+                        <image x="0" y="0" height="100%" preserveAspectRatio="xMidYMid slice" width="100%" xlink:href="images/avatar.jpg"></image>
+                    </g>
+                </svg>
+                <div class="chat__message">доме, офисе, кабинете, мастерской</div>
+            </div>
+        </div>
+        <form class="chat__form" action="/" method="post">
+            <textarea class="chat__input" name="message" id="message" cols="30" rows="10">Cowkeifjowefwehifuhqiwuehfqwef wef</textarea>
+            <button class="chat__button" type="submit">Отправить</button>
+        </form>
+    </div>
+</body>
+</html>
